@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Bootstrap-Övninguppgift</title>
+</head>
+<body>
+    <nav class="nav d-flex text-uppercase justify-content-center">
+        <a class="nav-link text-danger fs-5" href="#">Home</a>
+        <a class="nav-link text-danger fs-5" href="#">Menu</a>
+        <a class="nav-link text-danger fs-5" href="#">Gallery</a>
+        <a class="nav-link text-danger fs-5" href="#">Contact Us</a>
+    </nav>
+    <br>
+    <br>
+
+    <div class="text-left">
+        <h1>Khazana</h1>
+        
+    </div>
+    <div class="d-flex justify-content-center">
+        <img src="https://www.khazana.se/wp-content/uploads/2018/07/cropped-header-8.png" alt="">
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="text-center">Popular Recepie</div>
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 16rem;">
+                <img src="https://www.worldatlas.com/r/w960-q80/upload/12/f8/83/coffee-cup.jpg" class="card-img-top" alt="">
+                <div class="card-body  shadow-lg">
+                <h5 class="card-title">Kaffe Latte</h5>
+                <p class="card-text">Coffe</p>
+                <ul>
+                    <li>vete</li>
+                    <li>Salt</li>
+                    <li>sugar</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Add to Bag</a>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="https://www.worldatlas.com/r/w960-q80/upload/12/f8/83/coffee-cup.jpg" class="card-img-top" alt="">
+                <div class="card-body  shadow-lg">
+                <h5 class="card-title">My Card</h5>
+                <p class="card-text">Coffe card</p>
+                <a href="#" class="btn btn-primary">Scan your Card</a>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="https://www.worldatlas.com/r/w960-q80/upload/12/f8/83/coffee-cup.jpg" class="card-img-top" alt="">
+                <div class="card-body  shadow-lg">
+                <h5 class="card-title">My Card</h5>
+                <p class="card-text">Coffe card</p>
+                <a href="#" class="btn btn-primary">Scan your Card</a>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="https://www.worldatlas.com/r/w960-q80/upload/12/f8/83/coffee-cup.jpg" class="card-img-top" alt="">
+                <div class="card-body  shadow-lg">
+                <h5 class="card-title">My Card</h5>
+                <p class="card-text">Coffe card</p>
+                <a href="#" class="btn btn-primary">Scan your Card</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 16rem;">
+                <img src="https://www.worldatlas.com/r/w960-q80/upload/12/f8/83/coffee-cup.jpg" class="card-img-top" alt="">
+                <div class="card-body  shadow-lg">
+                <h5 class="card-title">My Card</h5>
+                <p class="card-text">Coffe card</p>
+                <a href="#" class="btn btn-primary">Scan your Card</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+      
+    
+</body>
+
+<footer>
+    <div class="m-5 align-text-bottom">
+        <div>
+            <H4>Opening Hour</H4>
+        </div>
+        <div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Monday-Thursday: 11:00-21:00</li>
+                <li class="list-group-item">Friday: 11:00-22:00</li>
+                <li class="list-group-item">Saturday: 12:00-22:00</li>
+                <li class="list-group-item">Sunday: 12:00-21:00</li>
+              </ul> 
+        </div>
+    </div>
+    <br>
+    <div class="text-center">
+        ----------copyright@Khazana.se----------
+    </div>
+</footer>
+</html>
